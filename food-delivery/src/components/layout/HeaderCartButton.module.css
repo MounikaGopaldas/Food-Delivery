@@ -1,0 +1,48 @@
+.button{
+    background-color: #c03803;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 3rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    margin-right: 25%;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+
+.badge{
+    background-color: coral;
+    padding: 5px;
+    width: 15%;
+    height: 1rem;
+    top: 0;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.bump{
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

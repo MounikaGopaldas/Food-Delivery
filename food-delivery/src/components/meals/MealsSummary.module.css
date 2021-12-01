@@ -1,0 +1,12 @@
+.summary{
+    background-color: #3b3939;
+    color: #fff;
+    display: block;
+    position: relative;
+    bottom: -272px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 14px;
+}
